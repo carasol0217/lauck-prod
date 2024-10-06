@@ -13,10 +13,6 @@
       ],
       "type": "assets",
       "workspace": "lauc_frontend"
-    },
-    "audio": {  
-      "main": "src/lauc_backend/audio.mo",  
-      "type": "motoko"
     }
   },
   "defaults": {
