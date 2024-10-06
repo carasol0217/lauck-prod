@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "lauc_backend": {
+      "main": "src/lauc_backend/main.mo",
+      "type": "motoko"
+    },
+    "lauc_frontend": {
+      "dependencies": [
+        "lauc_backend"
+      ],
+      "source": [
+        "src/lauc_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "lauc_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
