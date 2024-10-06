@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { lauc_backend } from 'declarations/lauc_backend';
+import { lauck_backend } from 'declarations/lauck_backend';
 
 function App() {
   const [greeting, setGreeting] = useState('');
@@ -7,7 +7,7 @@ function App() {
   function handleSubmit(event) {
     event.preventDefault();
     const name = event.target.elements.name.value;
-    lauc_backend.greet(name).then((greeting) => {
+    lauck_backend.greet(name).then((greeting) => {
       setGreeting(greeting);
     });
     return false;

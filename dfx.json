@@ -1,18 +1,18 @@
 {
   "canisters": {
-    "lauc_backend": {
-      "main": "src/lauc_backend/main.mo",
+    "lauck_backend": {
+      "main": "src/lauck_backend/main.mo",
       "type": "motoko"
     },
-    "lauc_frontend": {
+    "lauck_frontend": {
       "dependencies": [
-        "lauc_backend"
+        "lauck_backend"
       ],
       "source": [
-        "src/lauc_frontend/dist"
+        "src/lauck_frontend/dist"
       ],
       "type": "assets",
-      "workspace": "lauc_frontend"
+      "workspace": "lauck_frontend"
     }
   },
   "defaults": {
